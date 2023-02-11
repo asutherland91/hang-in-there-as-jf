@@ -15,6 +15,7 @@ var posterTitleInput = document.querySelector('#poster-title')
 var posterQuoteInput = document.querySelector('#poster-quote')
 var makePosterButton = document.querySelector('.make-poster')
 var savePosterButton = document.querySelector(".save-poster");
+var miniPosters = document.querySelectorAll(".mini-poster");
 
 
 // we've provided you with some data to work with 👇
@@ -198,11 +199,21 @@ function savePoster() {
    }
  }
 
+ function removePoster(){
+    this.remove()
+    var removeID = this.id
+    for (var i = savedPosters.length - 1; i >= 0; --i) {
+      if (savedPosters[i].id == removeID) {
+        savedPosters.splice(i,1);
+      }
+    }
+ }
 
-// I don't think this needs to be in a for loop and maybe they just need to get added to the grid every time someone hits save poster vs. doing the whole array at once.
 function makePosterGrid(){
     var posterDiv = document.createElement('div');
     posterDiv.classList.add('mini-poster')
+    posterDiv.setAttribute('id', currentPoster['id'])
+    posterDiv.addEventListener('dblclick', removePoster)
     document.querySelector('.saved-posters-grid').appendChild(posterDiv);
     var miniPosterImage = document.createElement('img')
     miniPosterImage.src = currentPoster['imageURL']
