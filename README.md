@@ -18,7 +18,7 @@ This website allows the user to generate motivational posters with an image, tit
 1. Visit the [GitHub Pages deployment link](https://jwfeatherstone.github.io/hang-in-there-as-jf/).
 
 ### Preview of App:
-![demo](https://giphy.com/embed/tK5LDsTysjSzKJeVOy)
+![demo](https://media.giphy.com/media/tK5LDsTysjSzKJeVOy/giphy.gif)
 
 ### Context:
 - This project was completed as part of the Turing School's Module One paired assignment, ["Hang in There"](https://frontend.turing.edu/projects/module-1/hang-in-there-v2.html).
