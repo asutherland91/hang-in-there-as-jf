@@ -15,7 +15,7 @@ This website allows the user to generate motivational posters with an image, tit
 1. Enter the created directory.
 1. Run the command "open index.html" in the terminal. The webpage will appear.
 #### To View the Project - Option 2: Via the GitHub Pages Deployment
-1. Visit the [GitHub Pages deployment link](https://jwfeatherstone.github.io/hang-in-there-as-jf/).
+1. Visit the [GitHub Pages deployment link](https://asutherland91.github.io/hang-in-there-as-jf/).
 
 ### Preview of App:
 ![demo](https://media.giphy.com/media/tK5LDsTysjSzKJeVOy/giphy.gif)
